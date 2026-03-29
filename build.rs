@@ -5,8 +5,8 @@ fn main() {
         // Metadata del ejecutable
         res.set("ProductName", "UpdateGit");
         res.set("FileDescription", "Actualizador desde GitHub Releases");
-        res.set("LegalCopyright", "© 2025 ALCA TIC, S.L.");
-        res.set("CompanyName", "ALCA TIC, S.L.");
+        res.set("LegalCopyright", "© 2025 AMG");
+        res.set("CompanyName", "AMG");
         res.set("FileVersion", env!("CARGO_PKG_VERSION"));
         res.set("ProductVersion", env!("CARGO_PKG_VERSION"));
         res.compile().expect("Error al compilar recursos Windows");

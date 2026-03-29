@@ -85,4 +85,4 @@ Compiles, deletes all existing releases, creates a new one with the binary.
 
 ---
 
-**© 2025 ALCA TIC, S.L.**
+**© 2025 AMG**

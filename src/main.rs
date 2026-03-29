@@ -515,7 +515,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "║                  Versión {} - AMG                    ║",
         APP_VERSION
     );
-    println!("║                  © 2025 ALCA TIC, S.L.                ║");
+    println!("║                  © 2025 AMG                          ║");
     println!("╚══════════════════════════════════════════════════════════╝");
     println!();
 
