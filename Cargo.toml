@@ -1,0 +1,14 @@
+[package]
+name = "updategit"
+version = "1.2.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+indicatif = "0.17"
+zip = { version = "2", features = ["aes-crypto"] }
+
+[build-dependencies]
+winres = "0.1"
