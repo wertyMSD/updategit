@@ -64,24 +64,9 @@ The updater looks for a ZIP asset matching the app name. Search order:
 
 ---
 
-## Build
+## Download
 
-Requires [Rust](https://rustup.rs/) and Windows.
-
-```powershell
-cargo build --release
-# Output: target/release/updategit.exe
-```
-
----
-
-## Publish
-
-```powershell
-.\publish.ps1
-```
-
-Compiles, deletes all existing releases, creates a new one with the binary.
+[Latest Release](https://github.com/wertyMSD/updategit/releases/latest)
 
 ---
 
