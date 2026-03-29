@@ -59,7 +59,7 @@ gh release create $Tag `
     $ExePath `
     --repo $Repo `
     --title "UpdateGit $Version" `
-    --notes "Auto-updater from GitHub Releases for Windows apps.`n`n**Changes:** see commit history.`n`n**Download:** `updategit.exe` below."
+    --notes "Auto-updater from GitHub Releases for Windows apps.`n`n**Changes:** see commit history.`n`n**Download:** updategit.exe below."
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Falló la creación de la release"
